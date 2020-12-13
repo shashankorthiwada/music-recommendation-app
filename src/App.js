@@ -210,16 +210,7 @@ export default function App() {
             return (
               <div className="song-list-div">
                 {song.Name}
-                <a
-                  style={{
-                    display: "block",
-                    textDecoration: "none",
-                    color: "white"
-                  }}
-                  href={song.Spotify}
-                >
-                  Play in Spotify
-                </a>
+                <a href={song.Spotify}>Play in Spotify</a>
               </div>
             );
           })}
