@@ -1,6 +1,6 @@
 This is a Fun GUI App which gives Music Recommendations.
 
-Here there are different types of Genres... and You can directly listen on Spotify by Clicking...
+Here there are different types of Genres... and You can directly listen to them on Spotify
 
 Technologies Used:
 
