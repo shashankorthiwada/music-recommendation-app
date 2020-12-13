@@ -1,0 +1,45 @@
+.App {
+  font-family: "East Sea Dokdo", cursive;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #f54242;
+}
+
+.song-btn {
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 25px;
+  font-family: inherit;
+}
+
+.song-btn:hover {
+  background-color: #ddd;
+  color: var(--primary-color);
+}
+
+body {
+  /* background-image: url("background.jpg"); */
+  background-image: url("background3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 25px;
+  color: white;
+}
+
+.song-list-div {
+  background-color: transparent;
+  color: white;
+  max-width: 400px;
+  padding: 1rem;
+  margin: 30px auto;
+  display: inline-block;
+  border-radius: 1rem;
+}
+
+.song-list-div:hover {
+  border: 1px solid white;
+  color: var(--primary-color);
+}
